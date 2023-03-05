@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: ml_deploy
+    command: python app.py  
+    ports:
+      - 8989:8989
+    volumes:
+      - .:/code

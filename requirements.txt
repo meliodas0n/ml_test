@@ -1,0 +1,7 @@
+flask
+catboost
+pandas
+gunicorn
+requests
+tqdm
+locust
